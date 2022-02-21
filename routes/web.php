@@ -21,6 +21,10 @@ Route::get('/', function () {
     echo "Selamat Datang"; 
 }); 
 
+Route::get('/about', function () {
+    echo "2041720052 - Ahmad Dani Maulana"; 
+});  
+
 Route::get('/articles/{id}', function ($id) {
     echo "Halaman artikel dengan id ".$id; 
 }); 
